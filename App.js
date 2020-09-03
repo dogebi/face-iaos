@@ -12,7 +12,7 @@ export default class App extends React.Component {
     
     adFunction = async () =>{
     AdMobInterstitial.setAdUnitID('ca-app-pub-5747609340870218/7916083730'); // Test ID, Replace with your-admob-unit-id
-    await  AdMobInterstitial.requestAdAsync({ servePersonalizedAds: true});
+   await   AdMobInterstitial.requestAdAsync({ servePersonalizedAds: true});
     await  AdMobInterstitial.showAdAsync();
         
     }
